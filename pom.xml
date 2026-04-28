@@ -45,6 +45,10 @@
             <id>nexus-releases</id> <!-- Match this ID with the settings.xml -->
             <url>http://3.109.210.161:8081/repository/java-packages/</url>
         </repository>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <url>http://<NEXUS-IP>:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
     </distributionManagement>
 </project>
 
