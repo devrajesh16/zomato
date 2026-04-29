@@ -45,10 +45,6 @@
             <id>nexus-releases</id> <!-- Match this ID with the settings.xml -->
             <url>http://65.2.74.78:8081/repository/java-packages/</url>
         </repository>
-    <snapshotRepository>
-        <id>nexus-snapshots</id>
-        <url>http://65.2.74.78:8081/repository/maven-snapshots//</url>
-    </snapshotRepository>
     </distributionManagement>
 </project>
 
